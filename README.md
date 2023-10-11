@@ -76,3 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Stack
 
 ReactJs, AntDesing, NodeJs
+
+# Nombre de la candidata
+
+Yadira Alejandrina Salazar Alvarez
