@@ -65,7 +65,7 @@ const Tabla = ({ estado }) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/estados") // Reemplaza con la URL de tu servidor Node.js
+      .get("http://localhost:3001/estados")
       .then((response) => {
         setEstados(response.data);
       })

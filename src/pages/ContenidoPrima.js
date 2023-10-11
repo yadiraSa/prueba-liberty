@@ -15,7 +15,7 @@ const ContenidoPrima = ({onEstadoChange}) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/estados") // Reemplaza con la URL de tu API
+      .get("http://localhost:3001/estados")
       .then((response) => {
         setEstados(response.data);
       })
@@ -26,7 +26,7 @@ const ContenidoPrima = ({onEstadoChange}) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/agentes") // Reemplaza con la URL de tu API
+      .get("http://localhost:3001/agentes") 
       .then((response) => {
         setAgentes(response.data);
       })
@@ -37,7 +37,7 @@ const ContenidoPrima = ({onEstadoChange}) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/ejecutivos") // Reemplaza con la URL de tu API
+      .get("http://localhost:3001/ejecutivos") 
       .then((response) => {
         setEjecutivos(response.data);
       })
